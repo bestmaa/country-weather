@@ -23,7 +23,7 @@ function Search() {
           src="https://wovvtech.com/wp-content/uploads/2021/04/WOVV-Tech-Logo-Color-Tagline-1.png"
           alt=""
         />
-        <input type="text" className="search" onInput={(e)=>{
+        <input placeholder="Enter Your Country" type="text" className="search" onInput={(e)=>{
           if((e.target.value).length>0){
             setactiveOrNot(false)
           }else{
