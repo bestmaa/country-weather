@@ -11,7 +11,7 @@ export const getWeatherInfo = (name) => async (dispatch) => {
   // let data=await axios.get(`http://api.weatherstack.com/current?access_key=39b8f25c1b59631ad4ce6becc965142f&query=${name}`)
   await axios
     .get(
-      `http://api.weatherstack.com/current?access_key=39b8f25c1b59631ad4ce6becc965142f&query=${name}`
+      `https://api.weatherstack.com/current?access_key=39b8f25c1b59631ad4ce6becc965142f&query=${name}`
     )
     .then((data) => {
       if (data.data.error) {
