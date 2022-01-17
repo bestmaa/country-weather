@@ -1,0 +1,49 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+
+}
+*:before,*:after{box-sizing:inherit}
+.search-box{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    /* height: 100vh; */
+    flex-direction: column;
+
+}
+.imglogo{
+    padding: 20px;
+    /* width: 30px; */
+}
+.search{
+    width: 50%;
+    padding: 20px;
+    border-radius: 20px;
+}
+.search-btn{
+    display: flex;
+    flex-direction: row;
+
+}
+.search-btn >button{
+    padding: 10px 20px;
+    margin-top: 10px;
+    /* border: 0px; */
+    outline: 0px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.search-btn >button:first-child{
+    margin-right: 10px;
+}
+.search-btn >button:last-child{
+    margin-left: 10px;
+}
+.showcountrycard{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    
+}

@@ -1,0 +1,18 @@
+.popup{
+    /* width: 50%; */
+    background-color: azure;
+    position: fixed;
+    /* display: none; */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border: 2px solid olive ;
+    padding: 20px;
+}
+.x{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    cursor: pointer;
+    font-weight: 700;
+}
